@@ -2,20 +2,21 @@ body{
     background-color: #000000;
     color: #FFFFFF;
     font-family: sans-serif;
+    font-size:16px;
 }
 
 h1{
-  font-size: 32;
+  font-size: 32px;
   text-align: center;
   padding:10px;
 }
 
 h2{
-  font-size: 24;
+  font-size: 24px;
 }
 
 p{
-  font-size: 16;
+  font-size: 16px;
   padding-top: 15px;
 }
 
@@ -57,26 +58,28 @@ footer{
 }
 
 @media screen and (min-width:776px){
+  body{
+    font-family:16px;
+
+  }
   h1{
+    font-family:Cursive;
     font-size:64px;
   }
+
   h2{
     font-size:32px;
   }
+
   p{
     font-size:24px;
   }
+  
   div{
     padding:25px;
   }
 }
 
-@media screen and (min-width:776px){
-  h1{
-    font-family:Cursive;
-  }
-
-}
 
 /*Using additional style sheet for dark mode*/
 
